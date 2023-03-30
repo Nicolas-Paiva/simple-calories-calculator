@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Calories Calculator</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-text">
+        <h1>simple calories calculator</h1>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main">
+      <div class="main-container">
+        <!-- Calories Input -->
+        <div class="left-container">
+          <div class="left-container-top">
+            <h3>calories consumed:</h3>
+            <form action="" method="get">
+              <div class="food-data">
+                <label for="food-one-type"
+                  >Food:
+                  <input type="text" id="food-one-type" placeholder="Cheese" />
+                </label>
+                <label for="food-one-amount"
+                  >Amount:
+                  <input
+                    type="text"
+                    id="food-one-amount"
+                    placeholder="Grams (g) "
+                  />
+                </label>
+              </div>
+              <div class="food-data">
+                <label for="food-two-type"
+                  >Food:
+                  <input type="text" id="food-two-type" />
+                </label>
+                <label for="food-two-amount"
+                  >Amount:
+                  <input type="text" id="food-two-amount" />
+                </label>
+              </div>
+              <div class="food-data">
+                <label for="food-three-type"
+                  >Food:
+                  <input type="text" id="food-three-type" />
+                </label>
+                <label for="food-three-amount"
+                  >Amount:
+                  <input type="text" id="food-three-amount" />
+                </label>
+              </div>
+            </form>
+          </div>
+          <!-- Exercises Input -->
+          <div class="left-container-bottom">
+            <h3>Exercises:</h3>
+            <form action="" method="get">
+              <div class="exercise-data">
+                <label for="exercise-one-type"
+                  >Exercise:
+                  <input
+                    type="text"
+                    id="exercise-one-type"
+                    placeholder="Capoeira"
+                  />
+                </label>
+                <label for="exercise-one-amount"
+                  >Duration:
+                  <input
+                    type="text"
+                    id="exercise-one-amount"
+                    placeholder="Minutes"
+                  />
+                </label>
+              </div>
+              <div class="exercise-data">
+                <label for="exercise-two-type"
+                  >Exercise:
+                  <input type="text" id="exercise-two-type" />
+                </label>
+                <label for="exercise-two-amount"
+                  >Duration:
+                  <input type="text" id="exercise-two-amount" />
+                </label>
+              </div>
+              <div class="exercise-data">
+                <label for="exercise-three-type"
+                  >Exercise:
+                  <input type="text" id="exercise-three-type" />
+                </label>
+                <label for="exercise-three-amount"
+                  >Duration:
+                  <input type="text" id="food-three-amount" />
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="right-container">
+          <h3>Results:</h3>
+          <div class="right-container-main"></div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-div">
+        <h3>Created by:</h3>
+        <a class="footer-link" href="https://github.com/Nicolas-Paiva"
+          >Nícolas Paiva</a
+        >
+      </div>
+    </footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
