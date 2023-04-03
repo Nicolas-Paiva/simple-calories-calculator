@@ -5,5 +5,6 @@ My very first project without any tutorial.
 
 ## For now my knowledge in JS is limited. I only know the very basics about variables, functions, if statements, operators and so on.
 
-## NExt I am going to learn about arrays, loops and so on
+## I am trying to make the website responsve, but I realized that I still really suck at CSS, and I probably need to learn a lot.
+
 
