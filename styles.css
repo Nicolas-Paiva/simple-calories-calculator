@@ -166,3 +166,47 @@ Footer
   color: rgba(79, 12, 141, 0.934);
   border-bottom: 0.3px solid rgba(79, 12, 141, 0.934);
 }
+
+/* Adding Responsiveness */
+
+@media screen and (max-width: 1420px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .left-container-top {
+    height: 12rem;
+  }
+  .left-container-bottom {
+    height: 12rem;
+  }
+  .right-container {
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+  }
+  .right-container-main {
+    height: 8rem;
+  }
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+/* @media screen and (max-width: 1200px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .right-container {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+  }
+} */
