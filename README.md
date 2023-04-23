@@ -9,4 +9,3 @@ My very first project without any tutorial.
 
 ## Right now I am reviewing the content I already learned otherwise I am going to forget everything
 
-## Working with arrays is very challenging, but it w=is so good when I can solve a problem!
