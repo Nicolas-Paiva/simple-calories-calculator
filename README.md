@@ -7,5 +7,5 @@ My very first project without any tutorial.
 
 ## I am trying to make the website responsve, but I realized that I still really suck at CSS, and I probably need to learn a lot.
 
-## Right now I am reviewing the content I already learned otherwise I am going to forget everything
+## I am now trying to develop a simple BMI calculator
 
